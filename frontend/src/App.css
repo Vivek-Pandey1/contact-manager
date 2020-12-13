@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+.container{
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid #989898 !important;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #888888;
+    overflow: hidden;
+}
+
+.conHeader{
+    margin: 0 auto;
+    background-color: #DDDDDD;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: 900;
+    border-bottom: 1px solid #989898;
+}
+
+.entryCard {
+    min-height: 50px;
+    background-color: white;
+    border-bottom: 1px solid #989898;
+    padding: 10px 30px;
+}
+
+.entryCard .leftPane {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.entryCard .leftPane .empName{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #545454;
+}
+
+.entryCard .leftPane .empTitle{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #545454;
+}
+
+.entryCard .rightPane {
+    width: 50%;
+    display: inline-block;
+    color: #666666
+}
+
+.entryCard .rightPane .fas {
+    color: red;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.modal{
+    position: fixed;
+    top : 50%;
+    left : 50%;
+    max-width: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+    padding: 20px;
+    z-index: 200;
+}
+
+
+#addBtn {
+    font-size: 1.5em;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+    cursor: pointer;
+    position: sticky;
+    bottom: 10%;
+    left: 85%;
+    z-index: 2;
+}
+
+#closeBtn {
+    font-size: 0.8em;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    cursor: pointer;
+    padding: 0.5em 0.6em;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.pt-input{
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#suBtn{
+    background-color: #006cd1;
+    color: white;
+    display: block;
+    margin: 10px auto;
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #666666;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px black;
+}
